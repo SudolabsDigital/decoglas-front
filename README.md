@@ -72,5 +72,17 @@ src/
 -   `npm run lint`: Ejecuta ESLint para verificar calidad de código.
 
 ---
-
-© 2026 Decoglass S.A.C. - Diseño y Desarrollo por [Sudolabs Team - sudolabs-space].
+<br />
+<div align="center">
+  © 2026 Decoglass S.A.C.
+  <br />
+  <br />
+  <small>Diseño y Desarrollo por</small>
+  <br />
+  <a href="https://sudolabs.space">
+    <img src="https://www.sudolabs.space/icon.png?icon.86bed3c5.png" alt="Sudolabs" width="50" style="border-radius: 8px;"/>
+  </a>
+  <br />
+  <a href="https://sudolabs.space"><b>sudolabs.space</b></a>
+</div>
+<br />
