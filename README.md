@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Decoglass Architecture Web v2.0
 
-## Getting Started
+![Decoglass Banner](public/assets/logos/decoglass-banner.png)
 
-First, run the development server:
+> **Architectural Brutalism meets Precision Engineering.**
+> Una experiencia web inmersiva para una firma líder en vidrio templado y aluminio de alta gama.
+
+[![Next.js](https://img.shields.io/badge/Next.js-16.1-black)](https://nextjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4.0-38bdf8)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-v12-ec4899)](https://www.framer.com/motion/)
+
+## 🏗 Concepto de Diseño
+
+Este proyecto rechaza los estándares corporativos tradicionales en favor de una estética editorial y arquitectónica.
+
+-   **Brutalismo Refinado:** Uso de tipografías masivas, grillas asimétricas y contraste extremo (Negro/Blanco).
+-   **Micro-Interacciones Físicas:** Cada elemento tiene peso e inercia. Los menús no aparecen, se "construyen".
+-   **Glassmorphism Técnico:** El vidrio no es solo un efecto visual (`backdrop-blur`), es el material central de la marca.
+
+## ⚡ Stack Tecnológico (2026)
+
+Este frontend representa el estado del arte en desarrollo web moderno:
+
+-   **Framework:** Next.js 16 (App Router + React Server Components).
+-   **Estilos:** Tailwind CSS v4 (Variables Nativas + CSS-in-JS cero runtime).
+-   **Animaciones:** Framer Motion 12 (Layout Animations & Scroll-linked effects).
+-   **Scroll:** Lenis (Scroll smoothing para una navegación cinematográfica).
+-   **Iconografía:** Lucide React.
+-   **Fuentes:** Geist Sans & Geist Mono (Vercel Fonts).
+
+## 🚀 Instalación y Desarrollo
+
+### Prerrequisitos
+-   Node.js 20+
+-   npm o pnpm
+
+### Pasos
+1.  Clonar el repositorio:
+    ```bash
+    git clone https://github.com/tu-usuario/decoglas-front.git
+    cd decoglas-front
+    ```
+
+2.  Instalar dependencias:
+    ```bash
+    npm install
+    ```
+
+3.  Iniciar servidor de desarrollo:
+    ```bash
+    npm run dev
+    ```
+
+4.  Abrir `http://localhost:3000` en tu navegador.
+
+## 📂 Estructura del Proyecto
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+src/
+├── app/                 # App Router (Layouts & Pages)
+├── components/
+│   ├── layout/          # Navbar, Footer, Estructuras globales
+│   ├── ui/              # Componentes de Diseño Atómico (Botones, Grillas)
+│   └── providers/       # Context Providers (SmoothScroll)
+└── lib/                 # Utilidades (cn, fetchers)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠 Comandos de Build
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-   `npm run build`: Genera la versión de producción optimizada.
+-   `npm run start`: Inicia el servidor de producción.
+-   `npm run lint`: Ejecuta ESLint para verificar calidad de código.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© 2026 Decoglass S.A.C. - Diseño y Desarrollo por [Tu Nombre/Agencia].
