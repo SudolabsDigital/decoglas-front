@@ -73,4 +73,4 @@ src/
 
 ---
 
-© 2026 Decoglass S.A.C. - Diseño y Desarrollo por [Tu Nombre/Agencia].
+© 2026 Decoglass S.A.C. - Diseño y Desarrollo por [Sudolabs Team - sudolabs-space].
